@@ -1,0 +1,9 @@
+1- Each div is 3 1/2 pixels.
+2- The size of the divs became smaller. It is now 3 pixels long and it stars one pixel from the edge of the page.
+3- TestDiv2 is now before TestDiv1.  They are both on the right of the page next to each other. There is blankspace on the left.
+4- TestDiv1 is now all the way on the left still with a one pixel border and TestDiv2 is next to it with a one pixel border.  There is blankspace on the right.
+5- When I made the browser window less than 600 pixels wide, the tan box resizes as I increase and decrease the browser window.  I cannot see a part of TestDiv2 when it is less than 600 pixels, but I can scroll over to see the rest of it.
+6- When I float testDiv1 right, it aligns all the way on the right side of the page.  When I float testDiv2 to the left, it is all the way on the left with a border.  The blankspace is now in the middle of the two divs.
+7- I floated both divs to the right and set the width of testDiv1 to 2000px.  testDiv1 became a longer, shorter column under the ruler. testDiv2 remains in its original shape and is aligned on the right of the page under testDiv1.
+8- Since the divs are both floated left, and the width and container have been changed, the divs have become wider and shorter.  They are still separated by 1px and have a 1px border on the left.
+9- When you resize the browser, the tan box resizes, but the two divs do not.  In order to view testDiv2, you need to scroll to read them.  They are still on the same line next to each other.
